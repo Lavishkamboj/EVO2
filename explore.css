@@ -1,0 +1,42 @@
+p{
+    text-align:center;
+    font-size:5vw;
+    font-weight: bolder;
+
+
+}
+span{
+    animation-name:anime;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    from{
+        color:black;
+    }
+    to{
+        color:crimson;
+    }
+}
+
+.load{
+    height:20vw;
+    width:20vw;
+    border-color:lightseagreen;
+    border-width:2vw 2vw 0vw 2vw;
+    border-style:solid;
+    background-color: black;
+    text-align:center;
+    margin-top:5vw;
+    margin-left:37vw;
+    border-radius:50%;
+    animation-name:rotate;
+    animation-duration:1s;
+    animation-iteration-count:infinite ;
+    
+
+}
+@keyframes rotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg)}
+}

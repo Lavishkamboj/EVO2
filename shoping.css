@@ -1,0 +1,36 @@
+.box{
+    display:flex;
+    justify-content: space-evenly;
+    height:100vh;
+    width:100vw;
+    background-color:#16163F;
+    margin:0px;
+    padding:0px;
+   
+
+}
+.bo{
+
+    margin-top:5vw;
+    border-radius: 15px;
+   text-align:center;
+  
+
+}
+img{
+    border:2px solid black;
+    border-radius:15px;
+    height:20vw
+
+    
+}
+button{
+    background-color: lightseagreen;
+   border-radius:10px;
+    height:3vw;
+    width:6vw;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
