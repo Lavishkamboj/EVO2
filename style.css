@@ -144,5 +144,66 @@
             background-color: black;
             color:white;
         }
+        @Media(max-width:600px){
+            .hero{
+              flex-direction:column;
+              margin-top:10vw;
+              text-align:center;
+            margin-left:20vw;
+            }  
+            .heroheading pre{
+              font-size:8vw;
+              padding:0px;
+              line-height:12vw;
+              font-weight:700;
+             
+  
+            } 
+            .heroheading p{
+              line-height:9vw;
+              margin-top:8vw;
+            }
+            .heroheading button{
+              margin-top:8vw;
+            }
+            img{
+              margin-top:15vw;
+              height:60vw;
+            }
+            .bottomblocks{
+              flex-direction:column;
+              margin-left:5vw;
+              margin-top:20vw;
+              
+             
+            }
+            .box1{
+            width:80vw;
+            padding-top:7vw;
+            line-height:9vw;
+            height:200vw;
+  
+            }
+            .box2{
+              width:80vw;
+              padding-top:7vw;
+              line-height:9vw;
+    
+              }
+              .box3{
+                  width:80vw;
+                  padding-top:7vw;
+                  line-height:9vw;
+        
+                  }
+                  .bottom{
+                      height:10vw;
+                      font-size:3vw;
+                  }
+                  .menu{
+                      font-size:2vw;
+  
+                  }
+          }
 
        
