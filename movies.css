@@ -56,3 +56,29 @@ button:hover{
     animation-iteration-count: infinite;
     font-size:3vw;
 }
+@media(max-width:600px){
+    .box{
+    flex-direction:column;
+    align-items:center;
+}
+.bo{
+    width:70vw;
+   
+}
+.boximage{
+    height:80vw;
+    border-radius:10px;
+}
+button{
+    width:20vw;
+    height:10vw;
+    margin-top:7vw;
+}
+.soon span{
+    font-size:10vw;
+
+}
+.top{
+    font-size:8vw;
+}
+}

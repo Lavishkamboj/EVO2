@@ -27,3 +27,23 @@ h1{
     font-weight:bolder;
     
 }
+@media(max-width:600px){
+    .form{
+        height:100vw;
+        width:100vw;
+        margin-right:0vw;
+        margin-left:0vw;
+        border:0px;
+        background-color: white;
+    }
+    p{
+        font-size:5vw;
+    }
+    h1{
+        font-size:15vw;
+    }
+    input{
+        width:40vw;
+        margin:0px;
+    }
+}
