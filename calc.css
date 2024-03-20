@@ -1,0 +1,132 @@
+*{
+    padding:0%;
+    margin:0%;
+    background-color: #c5d5c5;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+   font-size: 80px;
+   font-weight: 550;
+}
+.header span{
+    text-decoration: line-through;
+    color:red;
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.all{
+    margin-top: 5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:35vw;
+    width:22vw;
+    color:lightseagreen;
+    background-color: #3b3a30;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.display{
+width:17vw;
+height:3vw;
+text-align: center;
+border-radius: 5px;
+background-color: #b2c2bf;
+display: flex;
+justify-content:end;
+font-size: 20px;
+}
+.buttons{
+    display:flex;
+align-items:center;
+justify-content: center;
+flex-wrap: wrap;
+row-gap: 15px;
+margin-top:5vw;
+column-gap: 15px;
+background-color:#3b3a30;
+
+
+
+}
+button{
+height:4vw;
+width:4vw;
+background-color: #c0ded9;
+border:0px;
+border-radius: 10px;
+border:3px solid black;
+transition-property: all;
+transition-duration: 1s;
+}
+button:active{
+    transform:translate(0px,1vw)
+}
+
+
+/* media queries */
+@Media(max-width:1000px){
+    .all{
+        margin-top: 5vw;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height:100vw;
+        width:60vw;
+        color:lightseagreen;
+        background-color: #3b3a30;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .display{
+    width:45vw;
+    height:12vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #b2c2bf;
+    display: flex;
+    justify-content:end;
+    font-size: 20px;
+    }
+    .buttons{
+        display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-top:5vw;
+    column-gap: 15px;
+    background-color:#3b3a30;
+    
+    
+    
+    }
+    button{
+    height:10vw;
+    width:10vw;
+    background-color: #c0ded9;
+    border:0px;
+    border-radius: 10px;
+    border:3px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    }
+    .header{
+        font-size: 10vw;
+        font-weight: 550;
+        text-align: center;
+        margin-top: 5vw;
+     }
+     .header span{
+         text-decoration: line-through;
+         color:red;
+     
+     }
+}

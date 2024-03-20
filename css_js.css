@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding:0%;
+    background-color: #005792;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outerdiv{
+   
+    width:90%;
+    margin-top:10vw;
+}
+.proj button{
+width:90%;
+border:2px solid black;
+background-color: lightseagreen;
+height:3vw;
+font-size: 2vw;
+text-align: left;
+padding-left: 2vw;
+border-radius: 7px;
+
+
+}
+@Media(max-width:600px){
+    .outerdiv{
+   
+        width:90%;
+        margin-top:10vw;
+    }
+    .proj button{
+    width:90%;
+    border:2px solid black;
+    background-color: lightseagreen;
+    height:10vw;
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 2vw;
+    border-radius: 7px;
+    
+    
+    }
+       
+       
+  }

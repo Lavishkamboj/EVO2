@@ -1,0 +1,123 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbd8e3;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    background-color: #5c5470;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:3vw;
+    border-bottom:10px solid black
+}
+.heading h1{
+    font-size: 5vw;
+    margin-top:2vw;
+    background-color: #5c5470;
+    color:white;
+   
+   
+}
+.p1 p{
+margin-top:7vw;
+padding-top:1vw;
+border-radius: 15px;
+width:60vw;
+height:15vw;
+background-color:#5c5470 ;
+font-size: 2vw;
+text-align:center;
+font-weight: 600;
+color:white;
+
+}
+.projectbuttons{
+    margin-top:7vh;
+}
+.projectbuttons button{
+    height:5vw;
+    width:8vw;
+    font-size:1vw;
+    font-weight: 600;
+    margin:1vh;
+    border-radius: 15px;
+    border:5px solid white;
+   background-color: #5c5470;
+   animation-name:fun;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+ }
+ @keyframes fun{
+     from{
+         border-color: white;
+     }
+     to{
+         border-color: #2a2438;
+     }
+ }
+ @Media(max-width:600px){
+    .heading h1{
+        font-size: 10vw;
+        margin-top:2vw;
+        background-color: #5c5470;
+        color:white;
+       
+       
+  }
+  .heading{
+    background-color: #5c5470;
+    width:100%;
+    height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:.5vh;
+    border-bottom:0px solid black
+}
+.p1 p{
+    margin-top:20vw;
+    padding-top:5vw;
+    border-radius: 15px;
+    width:80vw;
+    height:20vw;
+    background-color:#5c5470 ;
+    font-size: 2vh;
+    text-align:center;
+    font-weight: 600;
+    color:white;
+    
+    }
+    .projectbuttons{
+        margin-top:7vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:start;
+        width:100%;
+
+    }
+    .projectbuttons button{
+        height:24vw;
+        width:24vw;
+        font-size:2vw;
+        font-weight: 600;
+        margin:5vw;
+        border-radius: 15px;
+        border:5px solid white;
+       background-color: #5c5470;
+       margin-left:12vw;
+    
+     }
+}
+

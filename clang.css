@@ -1,0 +1,11 @@
+*{
+    margin:0%;
+    padding:0%;
+    background-color:  #005792;
+}
+p{
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 600;
+    margin-top:2vh;
+}
