@@ -14,8 +14,8 @@ let over=document.querySelector(".over")
 let tagline=document.querySelector(".over p")
 bujji_intro=document.querySelector(".bujji_intro")
 let text=document.querySelector(".text")
-let dx=10;
-dy=2;
+let dx=2;
+dy=3;
 let e=Math.random()*innerHeight
 let d=Math.random()*innerWidth/3
 let a=200,b=200
@@ -26,7 +26,8 @@ let collide=0;
 //     window.close()
 // }
 if(window.innerWidth<700){
-    canvas.width=innerWidth
+    canvas.width=window.innerWidth
+    canvas.height=innerHeight
     bujji_intro.style.display="none"
     text.style.display="none"
            //our circles
@@ -54,8 +55,8 @@ canvas.addEventListener("mousemove",(event)=>{
         //collide condition
         if(distance(d,e,mouse.x,mouse.y)<50){
             ball.color="black"
-            dx=-(dx+2)
-            dy=-(dy+5)
+            dx=-(dx)
+            dy=-(dy+2)
             collide=collide+10;
             score.innerHTML="Score : "+collide
             
@@ -148,6 +149,7 @@ canvas.addEventListener("mousemove",(event)=>{
 else{
     window.open("game.html")
     canvas.width=innerWidth/2
+    canvas.height=innerHeight
     //getting mouse position
 canvas.addEventListener("mousemove",(event)=>{
     mouse.x=event.x-(innerWidth)/4;

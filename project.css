@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     padding-bottom:3vw;
-    border-bottom:10px solid black
+    border-bottom:10px solid white
 }
 .heading h1{
     font-size: 5vw;
@@ -60,10 +60,10 @@ color:white;
  }
  @keyframes fun{
      from{
-         border-color: white;
+         border-color: #FFB22C;
      }
      to{
-         border-color: #2a2438;
+         border-color: #FF4C4C;
      }
  }
  @Media(max-width:600px){
@@ -83,7 +83,7 @@ color:white;
     align-items: center;
     justify-content: center;
     padding-bottom:.5vh;
-    border-bottom:0px solid black
+    border-bottom:0px solid white
 }
 .p1 p{
     margin-top:20vw;
