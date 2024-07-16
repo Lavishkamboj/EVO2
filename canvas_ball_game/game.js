@@ -26,6 +26,8 @@ let collide=0;
 //     window.close()
 // }
 if(window.innerWidth<700){
+    alert("For better experiance please use laptop bcz it is not much optimised for mobile screens")
+    window.close()
     canvas.width=window.innerWidth
     canvas.height=innerHeight
     bujji_intro.style.display="none"
