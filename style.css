@@ -132,20 +132,22 @@
             line-height:2vw;
         }
         .fun button{
+            color:#021526;
             height:5vw;
-            width:30vw;
+            width:20vw;
             display:flex;
             flex-direction: column;
             font-size:1.5vw;
             text-align: center;
             align-items: center;
             justify-content: center;
-            background-color:crimson;
-            border-radius:5px;
-           margin:5vw;
+            background-color:lightseagreen;
+            border-radius:15px;
+           margin-top:2vw;
+           margin-bottom: 2vw;
            text-align: center;
-          margin-left:35vw;
-          font-weight:500;
+          margin-left:00vw;
+          font-weight:700;
           animation-name:fun;
           animation-duration: 1s;
           animation-iteration-count: infinite;
@@ -155,15 +157,22 @@
 
         @keyframes fun{
             from{
-                background-color: crimson;
+                background-color: grey;
             }
             to{
-                background-color: bisque;
+                background-color: white;
             }
         }
         
         
         /**footer**/
+        .footer_btns{
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+        
+        }
         .bottom{
             width:100%;
             height:3vw;
@@ -226,6 +235,36 @@
                   line-height:9vw;
         
                   }
+                  .footer_btns{
+                    display:flex;
+                    flex-direction:column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .fun button{
+                    color:#021526;
+                    height:10vw;
+                    width:30vw;
+                    display:flex;
+                    flex-direction: column;
+                    font-size:3vw;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:#6EACDA;
+                    border-radius:5px;
+                  padding: 0%;
+                    margin-top:5vw;
+                    margin-bottom: 5vw;
+                   text-align: center;
+                  margin-left:00vw;
+                  font-weight:700;
+                  animation-name:fun;
+                  animation-duration: 1s;
+                  animation-iteration-count: infinite;
+                  animation-direction: alternate;
+        
+                }
                   .bottom{
                       height:10vw;
                       font-size:3vw;
