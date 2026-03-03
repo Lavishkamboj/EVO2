@@ -81,7 +81,7 @@ canvas.addEventListener("mousemove",(event)=>{
            over.style.display="flex"
     
            if(collide<300){
-            tagline.innerHTML=tagline.innerHTML+"hat saale noob"+"(YOUR score : "+collide+")"
+            tagline.innerHTML=tagline.innerHTML+"U lost baby"+"(YOUR score : "+collide+")"
             console.log(collide)
             }
             else if(300<collide && collide<=500){
@@ -93,7 +93,7 @@ canvas.addEventListener("mousemove",(event)=>{
                 console.log(collide)
             }
             else if(700<collide && collide<=1000){
-                tagline.innerHTML=tagline.innerHTML+"Bhagwan tuche acchi si bahu de"+"(YOUR score : "+collide+")"
+                tagline.innerHTML=tagline.innerHTML+"Bhagwan tuche acchi si biwi de"+"(YOUR score : "+collide+")"
                 console.log(collide)
             }
             else if(1000<collide && collide<=1200){
@@ -101,7 +101,7 @@ canvas.addEventListener("mousemove",(event)=>{
                 console.log(collide)
             }
             else if(1200<collide && collide<=1500){
-                tagline.innerHTML=tagline.innerHTML+"isse accha to jaake padhai kr le"+"(YOUR score : "+collide+")"
+                tagline.innerHTML=tagline.innerHTML+"Good"+"(YOUR score : "+collide+")"
                 console.log(collide)
             }
             else if(1500<collide && collide<=1700){
@@ -109,7 +109,7 @@ canvas.addEventListener("mousemove",(event)=>{
                 console.log(collide)
             }
             else if(1700<collide && collide<=2000){
-                tagline.innerHTML=tagline.innerHTML+"tu gu kha me chala"+"(YOUR score : "+collide+")"
+                tagline.innerHTML=tagline.innerHTML+"tu gu kha, me chala"+"(YOUR score : "+collide+")"
                 console.log(collide)
             }
             else if(collide>2000){
